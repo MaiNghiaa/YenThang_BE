@@ -1,6 +1,6 @@
 -- Database Schema
 
-### User Table
+### Database
 ```sql
 CREATE TABLE `user` (
   `UserId` int NOT NULL AUTO_INCREMENT,
