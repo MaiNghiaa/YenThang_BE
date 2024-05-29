@@ -40,7 +40,6 @@ CREATE TABLE `Orders` (
 
 ### OrderDetails Table
 
-```sql
 
 CREATE TABLE `OrderDetails` (
   `OrderDetailID` int NOT NULL AUTO_INCREMENT,
@@ -59,7 +58,6 @@ Data Inserts
 
 ### Thêm dữ liệu cho bảng sản phẩm
 
-```sql
 INSERT INTO products (image, title, description, price) VALUES
 ("img-1.png", "Loại cà phê", "Nhìn vào bố cục của nó. Mục đích của", 19.99),
 ("img-2.png", "Espresso", "Espresso mạnh mẽ và đậm đà.", 25.99),
